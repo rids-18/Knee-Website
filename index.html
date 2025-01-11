@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aafiya Mediretreats - Advanced Knee Care</title>
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">Aafiya Mediretreats</div>
+            <div class="menu-toggle">&#9776;</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#overview">Overview</a></li>
+                    <li><a href="#stories">Stories</a></li>
+                    <li><a href="#hospitals">Hospitals</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Aafiya Mediretreats</h1>
+            <p>Your trusted partner in advanced knee care and replacement solutions.</p>
+            <a href="#overview" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <!-- Overview Section -->
+    <section id="overview" class="section">
+        <div class="container">
+            <h2>Treatment Overview</h2>
+            <p>At Aafiya Mediretreats, knee replacement surgery combines state-of-the-art techniques with unparalleled care to deliver transformative results. Our expert team is dedicated to restoring your mobility and improving your overall quality of life through advanced, minimally invasive procedures. We prioritize compassionate, patient-centered treatment, tailoring every aspect of your care plan to meet your unique needs and ensure a smooth recovery. With a commitment to excellence and cutting-edge medical technology, Aafiya Mediretreats is your trusted partner in achieving lasting relief from knee pain and reclaiming an active, fulfilling lifestyle.</p>
+        </div>
+    </section>
+
+    <!-- Patient Stories Section -->
+    <section id="stories" class="section">
+        <div class="container">
+            <h2>Success Stories</h2>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="knee1.jpg" alt="Story 1" loading="lazy">
+                    <p>Sameer's Journey to Recovery</p>
+                </div>
+                <div class="item">
+                    <img src="knee2.jpg" alt="Story 2" loading="lazy">
+                    <p>Rohit's New Start</p>
+                </div>
+                <div class="item">
+                    <img src="knee3.jpg" alt="Story 3" loading="lazy">
+                    <p>Pushpa's Success Story</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recommended Hospitals Section -->
+    <section id="hospitals" class="section">
+        <div class="container">
+            <h2>Our Hospitals</h2>
+            <div class="grid">
+                <div class="card">
+                    <img src="hospital1.jpg" alt="Hospital 1" loading="lazy">
+                    <p>Aafiya Main Branch</p>
+                </div>
+                <div class="card">
+                    <img src="hospital2.jpg" alt="Hospital 2" loading="lazy">
+                    <p>Aafiya West Care</p>
+                </div>
+                <div class="card">
+                    <img src="hospital3.jpg" alt="Hospital 3" loading="lazy">
+                    <p>Aafiya East Care</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Aafiya Mediretreats. All rights reserved.</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
+                    <img src="status.png" alt="Facebook">
+                </a>
+                <a href="https://www.twitter.com" target="_blank" aria-label="Twitter">
+                    <img src="twitter.png" alt="Twitter">
+                </a>
+                <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+                    <img src="instagram.png" alt="Instagram">
+                </a>
+                <a href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn">
+                    <img src="linkedin.png" alt="LinkedIn">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".owl-carousel").owlCarousel({
+                items: 1,
+                loop: true,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                dots: true,
+                nav: false
+            });
+        });
+    </script>
+</body>
+</html>
